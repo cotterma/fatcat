@@ -28,6 +28,129 @@
   color: #61dafb;
 }
 
+.main-nav{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: white;
+  width : 50%;
+  height : fit-content;
+  font-family: 'Old Standard TT';
+  margin : 150px 0px;
+  font-size: 22px;
+}
+
+.hero{
+  background-color: #6A040F;
+  height : 1000px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.fatcatlogo{
+  display : flex;
+  height: 2300px;
+  width: 2300px;
+  margin-top: -510px;
+  margin-left : 40px;
+}
+
+.hero-title{
+  width : 100%;
+  font-size: 500px;
+  margin-top: -1850px;
+  font-family: 'FatCat';
+  color: white;
+}
+
+.social-medias{
+  font-family: 'Old Standard TT';
+  letter-spacing: -0.05em;
+  width : 70%;
+  padding : 64px;
+  font-size: 64px;
+  text-align: left;
+  margin : 0 auto;
+}
+
+.social-medias-icons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin : 30px 0px;
+  width : 100%;
+}
+
+.menu{
+  background-color: #6A040F;
+  display : flex;
+  justify-content: center;
+}
+
+.menu-container{
+  width :70%;
+  display:flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.menu-nav{
+  padding-top : 100px;
+  letter-spacing: -2px;
+  color : white;
+  font-size: 50px;
+  display: flex;
+  width : 30%;
+  flex-direction: column;
+  text-align: right;
+  font-family: 'Inter-Black';
+}
+
+.menu-nav-list{
+  list-style : none;
+  display : flex;
+  flex-direction: row;
+  font-family: 'Inter-Medium';
+  justify-content: flex-end ;
+  margin : 0px;
+  padding : 0px;
+  overflow: hidden;
+  flex-wrap: wrap;
+}
+
+.menu-nav-list li{
+  margin-left : 10px;
+  white-space: nowrap;
+  font-size: 25px;
+}
+
+.burger{
+  display :flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: right;
+  width : 40%;
+  margin-top : 100px;
+  font-family: 'Inter-Bold';
+  color : white;
+  font-size: 50px;
+}
+
+.burger-description{
+  font-family: 'Inter-Medium';
+  font-size: 24px;
+  margin-top : 20px;
+  color : #CCCCCC;
+}
+
+p{
+  margin :0px;
+  padding : 0px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
