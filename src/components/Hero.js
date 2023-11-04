@@ -6,7 +6,9 @@ export default function Hero(){
         <div className="hero">
             <MainNav />
             <img className="fatcatlogo" src={fatcatlogo} alt="fatcatlogo" />
-            <h1 className="hero-title">FATCAT</h1>
+            <svg className="hero-title" viewBox="-6 0 65 14">
+                <text x="0" y="12" fill="white"> FATCAT</text>
+            </svg>
         </div>
     )
 }

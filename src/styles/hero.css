@@ -1,0 +1,34 @@
+.main-nav{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    width : 50%;
+    height : fit-content;
+    font-family: 'Old Standard TT';
+    margin : 150px 0px;
+    font-size: 22px;
+  }
+  
+  .hero{
+    background-color: #6A040F;
+    height : 1000px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  .fatcatlogo{
+    display : flex;
+    height: 2300px;
+    width: 2300px;
+    margin-top: -510px;
+    margin-left : 40px;
+  }
+  
+  .hero-title{
+    margin-top: -1850px;
+    font-family: 'FatCat';
+  }

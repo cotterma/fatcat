@@ -1,0 +1,17 @@
+.social-medias{
+    font-family: 'Old Standard TT';
+    letter-spacing: -0.05em;
+    width : 70%;
+    padding : 64px;
+    font-size: 64px;
+    text-align: left;
+    margin : 0 auto;
+  }
+  
+  .social-medias-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin : 30px 0px;
+    width : 100%;
+  }

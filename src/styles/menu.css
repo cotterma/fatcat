@@ -1,0 +1,47 @@
+.menu{
+    background-color: #6A040F;
+    display : flex;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  .menu-container{
+    width :70%;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .menu-nav{
+    padding-top : 100px;
+    letter-spacing: -2px;
+    color : white;
+    font-size: 50px;
+    display: flex;
+    width : 30%;
+    flex-direction: column;
+    text-align: right;
+    font-family: 'Inter-Black';
+  }
+  
+  .menu-nav-list{
+    list-style : none;
+    display : flex;
+    flex-direction: row;
+    font-family: 'Inter-Medium';
+    justify-content: flex-end ;
+    margin : 0px;
+    padding : 0px;
+    overflow: hidden;
+    flex-wrap: wrap;
+  }
+  
+  .menu-nav-list li{
+    margin-left : 10px;
+    white-space: nowrap;
+    font-size: 25px;
+  }
+
+  black{
+    color : rgba(0, 0, 0, 0.24);
+  }

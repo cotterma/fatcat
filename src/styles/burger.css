@@ -1,0 +1,42 @@
+.burger-container{
+    display : flex;
+    flex-direction: column;
+    font-family: 'Inter-Bold';
+    color : white;
+    font-size: 50px;
+}
+
+
+.burger1{
+    display : flex;
+    flex-direction: row;
+    margin-top : 150px;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+.burger1-info{
+    text-align: right;
+    width : 40%;
+}
+
+.burger2{
+    display : flex;
+    flex-direction: row;
+    margin-top : 600px;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom : 300px;
+}
+
+.burger2-info{
+    text-align: left;
+    width : 40%;
+}
+
+.burger-description{
+    font-family: 'Inter-Medium';
+    font-size: 24px;
+    margin-top : 20px;
+    color : #CCCCCC;
+}
