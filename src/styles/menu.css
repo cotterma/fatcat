@@ -40,8 +40,5 @@
     margin-left : 10px;
     white-space: nowrap;
     font-size: 25px;
-  }
-
-  black{
-    color : rgba(0, 0, 0, 0.24);
+    cursor: pointer;
   }
