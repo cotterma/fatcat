@@ -17,7 +17,7 @@ export default function Menu(){
         } else if (menu ==="dessert"){
             document.querySelector(".menu").style.backgroundColor = "#823400";
         } else if (menu==="drink"){
-            document.querySelector(".menu").style.backgroundColor = "#004E98";
+            document.querySelector(".menu").style.backgroundColor = "#019095";
         }
     }, [menu]);
 

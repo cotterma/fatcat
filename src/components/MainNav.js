@@ -1,10 +1,16 @@
-import "../App.css"
+export default function MainNav(){
+    function scrollToLocations(){
+        document.querySelector(".locations").scrollIntoView({behavior: "smooth"});
+    }
 
-export default function MainNav(props){
+    function scrollToMenu(){
+        document.querySelector(".menu").scrollIntoView({behavior: "smooth"});
+    }
+
     return (
         <ul className="main-nav">
-            <li>Menu</li>
-            <li>Locations</li>
+            <li onClick={() => scrollToMenu()}>Menu</li>
+            <li onClick={() => scrollToLocations()}>Locations</li>
         </ul>
     );
 }

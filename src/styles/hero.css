@@ -9,6 +9,11 @@
     font-family: 'Old Standard TT';
     margin : 150px 0px;
     font-size: 22px;
+    z-index: 3;
+  }
+
+  .main-nav li{
+    cursor: pointer;
   }
   
   .hero{

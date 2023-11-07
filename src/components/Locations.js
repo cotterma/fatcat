@@ -10,7 +10,7 @@ const DivLocation = styled.div`
 
 export default function Locations() {
   return (
-    <DivLocation>
+    <DivLocation className="locations">
       <svg viewBox="0 0 46 12">
         <text x="0" y="12" fill="#6A040F">
           Paris
